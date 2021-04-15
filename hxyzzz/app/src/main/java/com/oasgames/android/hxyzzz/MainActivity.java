@@ -20,4 +20,14 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
     }
+
+
+    public void initView(){
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
