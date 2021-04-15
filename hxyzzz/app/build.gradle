@@ -5,9 +5,7 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-    viewBinding {
-        enabled = true
-    }
+
     defaultConfig {
         applicationId "com.oasgames.android.hxyzzz"
         minSdkVersion 16
@@ -38,6 +36,4 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-
 }
